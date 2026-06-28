@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="triangles.cpp">
+    <ClCompile Include="2_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2_3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
