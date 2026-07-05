@@ -13,16 +13,77 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\2_4">
+      <UniqueIdentifier>{a326a598-7de4-420b-852a-f15c309d5c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2_0">
+      <UniqueIdentifier>{a3902f6c-b853-4a57-8c25-c185c04a621d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2_1">
+      <UniqueIdentifier>{989c6f50-9867-418a-b354-135b9951cd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2_2">
+      <UniqueIdentifier>{18491b93-dfbf-40e1-9069-32858ca0d209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2_3">
+      <UniqueIdentifier>{ebfc6a8c-8f38-4a3e-a9c7-95cf777e69e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2_5">
+      <UniqueIdentifier>{dc5fd12c-8122-4980-a667-b4c70f21258a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2_6">
+      <UniqueIdentifier>{62dc0ba7-ca9b-4b93-bfe3-9c8baa20cbd2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="2_0.cpp">
+      <Filter>源文件\2_0</Filter>
+    </ClCompile>
     <ClCompile Include="2_1.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\2_1</Filter>
     </ClCompile>
     <ClCompile Include="2_2.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\2_2</Filter>
     </ClCompile>
     <ClCompile Include="2_3.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\2_3</Filter>
     </ClCompile>
+    <ClCompile Include="2_4.cpp">
+      <Filter>源文件\2_4</Filter>
+    </ClCompile>
+    <ClCompile Include="2_5.cpp">
+      <Filter>源文件\2_5</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件\2_6</Filter>
+    </ClCompile>
+    <ClCompile Include="2_6.cpp">
+      <Filter>源文件\2_6</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertShader_2_4.glsl">
+      <Filter>源文件\2_4</Filter>
+    </None>
+    <None Include="fragShader_2_4.glsl">
+      <Filter>源文件\2_4</Filter>
+    </None>
+    <None Include="vertShader_2_5.glsl">
+      <Filter>源文件\2_5</Filter>
+    </None>
+    <None Include="fragShader_2_5.glsl">
+      <Filter>源文件\2_5</Filter>
+    </None>
+    <None Include="vertShader.glsl">
+      <Filter>源文件\2_6</Filter>
+    </None>
+    <None Include="fragShader.glsl">
+      <Filter>源文件\2_6</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils.h">
+      <Filter>源文件\2_6</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
